@@ -24,16 +24,95 @@ class MainGUI(Frame):
         # 17 18 19 20
 
         # first row
-        # 1
-        img = PhotoImage(file = )# needs images
+        # case 1
+        img = PhotoImage(file = "images/1.gif"  )# possible image
         button = Button(self, bg = "white", image = img, borderwidth = 0,\
                         highlightthickness = 0, activebackground = "white")
         # set image
         button.image = img
         # put button in place
         button.grid(row = 1, column = 0, sticky = N+S+E+W)
+
+       # case 2
+        img = PhotoImage(file = "images/2.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 1, column = 1, sticky = N+S+E+W)
+
+       # case 3
+        img = PhotoImage(file = "images/3.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 1, column = 2, sticky = N+S+E+W)
+
+       # case 4
+        img = PhotoImage(file = "images/4.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 1, column = 3, sticky = N+S+E+W)
+
+
+        # second row
+        # case 5
+        img = PhotoImage(file = "images/5.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 2, column = 0, sticky = N+S+E+W)
+
+        # case 6
+        img = PhotoImage(file = "images/6.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 2, column = 1, sticky = N+S+E+W)
+
+        # case 7
+        img = PhotoImage(file = "images/7.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 2, column = 2, sticky = N+S+E+W)
+
+        # case 8
+        img = PhotoImage(file = "images/8.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 2, column = 3, sticky = N+S+E+W)
+
+
+        # third row
+        # case 9
+        img = PhotoImage(file = "images/9.gif"  )# possible image
+        button = Button(self, bg = "white", image = img, borderwidth = 0,\
+                        highlightthickness = 0, activebackground = "white")
+        # set image
+        button.image = img
+        # put button in place
+        button.grid(row = 3, column = 0, sticky = N+S+E+W)
+
         # pack the GUI
         self.pack(fill = BOTH, expand = 1)
+
+
 
 ############################
 window = Tk()
